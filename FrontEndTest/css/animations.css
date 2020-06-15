@@ -1,0 +1,76 @@
+﻿@-moz-keyframes rotate {
+    100% {
+        -moz-transform: rotate(180deg);
+    }
+}
+
+@-webkit-keyframes rotate {
+    100% {
+        -webkit-transform: rotate(180deg);
+    }
+}
+
+@keyframes rotate {
+    100% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes fromTop {
+    0% {
+        top: -72px
+    }
+
+    100% {
+        top: 82px;
+    }
+}
+
+@keyframes fromBottom {
+    0% {
+        bottom: -60px
+    }
+
+    100% {
+        bottom: 30px;
+    }
+}
+
+@keyframes fromRight {
+    0% {
+        right: -500px
+    }
+
+    100% {
+        right: 24px;
+    }
+}
+
+@keyframes fromLeftTranslateX {
+    0% {
+        transform: translateX(-200px)
+    }
+
+    100% {
+        transform: translateX(0px)
+    }
+}
+@keyframes fromRightTranslateX {
+    0% {
+        transform: translateX(100px)
+    }
+
+    100% {
+        transform: translateX(0px)
+    }
+}
+@keyframes fromTopTranslateY {
+    0% {
+        transform: translateY(-80px)
+    }
+
+    100% {
+        transform: translateY(0px)
+    }
+}
